@@ -5,7 +5,9 @@ body {
   background-image: url(../img/sfondo.png);
   margin: 1em;
 }
-
+div#body {
+  margin: 10px;
+}
 /*icon-header*/
 
 .fa-chevron-right:before,
@@ -164,10 +166,9 @@ thead .no-bold {
   text-align: center;
 }
 
-table .grey{
+table .grey {
   background-color: #ddd;
 }
-
 
 table caption {
   font-size: 1.3em;
