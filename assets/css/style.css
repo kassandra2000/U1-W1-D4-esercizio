@@ -113,6 +113,20 @@ main .second ul span {
 main h2 {
   font-size: 1.5em;
 }
+aside,
+.footer {
+  background-color: #ddddddbf;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+aside h4,
+.h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
@@ -131,7 +145,6 @@ table thead {
   background-color: #065fd4;
   border: 1px solid rgba(110, 110, 110, 0.349);
   color: white;
-
 }
 
 thead .no-bold {
@@ -146,17 +159,65 @@ table caption {
 }
 
 /* FORM */
-.four p span a {
+.four p span a,
+.blu {
   color: #41a6fd;
   font-weight: bold;
 }
 /* ELEMENTI NELL' ASIDE */
 div.iframe {
-    position: relative;
-    padding-top: -6px;
-    padding-bottom: 179px;
-    height: 0;
-    overflow: hidden;
-    border-radius: 30px;
+  position: relative;
+  padding-top: -6px;
+  padding-bottom: 179px;
+  height: 0;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+div.button {
+  display: inline;
+}
+
+aside h5 {
+  padding-bottom: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dotted grey;
+  background-color: white;
+}
+
+button {
+  background-color: #065fd4db;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.data {
+  text-align: end;
+  padding: 15px 0 10px;
+  color: grey;
 }
 /* FOOTER */
+footer {
+  background-color: #14545f;
+  margin: 30px 0 0;
+  color: white;
+  box-shadow: 2px 3px 10px black;
+  border: 1px solid rgba(62, 89, 95, 0.781);
+  text-align: center;
+}
+
+footer p.p-title{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+footer p{
+  font-size: 1.2em;
+}
